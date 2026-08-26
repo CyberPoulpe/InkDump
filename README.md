@@ -29,13 +29,13 @@ Sur une inspection mémoire brute (via `strings` ou un dump mémoire classique),
 
 ```bash
 # 1. Récupérer le projet
-git clone 
+git clone https://github.com/CyberPoulpe/InkDump.git
 cd InkDump
 chmod +x inkdump.py
 
 # 2. Relever le PID du terminal cible (ex: pts/1)
 w
-ps -t pts/1 -o pid,ppid,user,args --forest
+ps -t pts/1 -o pid,ppid,user,args --forest 
 
 # 3. Lancer l'extraction
 sudo ./inkdump.py <PID>
