@@ -29,7 +29,7 @@ Sur une inspection mémoire brute (via `strings` ou un dump mémoire classique),
 
 ```bash
 # 1. Récupérer le projet
-git clone [https://github.com/CyberPoulpe/InkDump.git](https://github.com/CyberPoulpe/InkDump.git)
+git clone 
 cd InkDump
 chmod +x inkdump.py
 
