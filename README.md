@@ -7,7 +7,7 @@ Outil Python léger permettant d'extraire et de filtrer l'historique de commande
 ![Stars](https://img.shields.io/github/stars/CyberPoulpe/InkDump?style=flat-square)
 
 ## 🎯 Aperçu & Objectif
-**InkDump** est conçu pour les intervenants DFIR, les auditeurs de sécurité et les administrateurs système ayant besoin de récupérer l'historique d'exécution volatile d'une session Bash en cours, avant même qu'il ne soit écrit dans le fichier '.bash_history'.
+**InkDump** est conçu pour les intervenants DFIR, les auditeurs de sécurité et les administrateurs système ayant besoin de récupérer l'historique d'exécution volatile d'une session Bash en cours, avant même qu'il ne soit écrit dans le fichier `.bash_history`.
 
 ✨ Pourquoi InkDump ?
 Lors d'une inspection mémoire brute (via strings ou un dump mémoire classique), la sortie est noyée sous des milliers de variables d'environnement, de fonctions internes et de tampons bash_completion (systemd, git, nvm...).
